@@ -12,14 +12,15 @@ const app = new Express();
 const isDevMode = process.env.NODE_ENV === 'development' || false;
 const isProdMode = process.env.NODE_ENV === 'production' || false;
 
-var config = require('./config')
+const config = require('./config');
 if (!process.env.NODE_ENV) {
-  console.log("the process env is not node_env")
-process.env.NODE_ENV = JSON.parse(config.dev.env.NODE_ENV)
+//  console.log("the process env is not node_env")
+process.env.NODE_ENV = JSON.parse(config.dev.env.NODE_ENV);
 process.noDeprecation = true;
 }
-else {
-  console.log("the process env is node_env")
+else
+{
+  //console.log("the process env is node_env")
 }
 
 
