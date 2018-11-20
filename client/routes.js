@@ -18,7 +18,7 @@ if (process.env.NODE_ENV !== 'production') {
   // Require async routes only in development for react-hot-reloader to work.
   require('./modules/Post/pages/PostListPage/PostListPage');
   require('./modules/Post/pages/PostDetailPage/PostDetailPage');
-  require('./modules/Post/pages/scanner/husky');
+  require('./modules/Post/pages/scanner/husky.jsx');
 }
 
 // react-router setup with code-splitting
@@ -36,7 +36,7 @@ export default (
       path="/husky"
       getComponent={(nextState, cb) => {
         require.ensure([], require => {
-          cb(null, require('./modules/Post/pages/scanner/husky').default);
+          cb(null, require('./modules/Post/pages/scanner/husky.jsx').default);
         });
       }}
     />
