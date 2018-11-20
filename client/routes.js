@@ -32,6 +32,14 @@ export default (
       }}
     />
     <Route
+      path="/husky"
+      getComponent={(nextState, cb) => {
+        require.ensure([], require => {
+          cb(null, require('./modules/Post/pages/scanner/husky').default);
+        });
+      }}
+    />
+    <Route
       path="/posts/:slug-:cuid"
       getComponent={(nextState, cb) => {
         require.ensure([], require => {
