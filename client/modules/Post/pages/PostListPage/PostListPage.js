@@ -14,6 +14,9 @@ import { toggleAddPost } from '../../../App/AppActions';
 import { getShowAddPost } from '../../../App/AppReducer';
 import { getPosts } from '../../PostReducer';
 import Header from '../../../App/components/Header/Header';
+import { switchLanguage } from '../../../Intl/IntlActions';
+
+
 
 class PostListPage extends Component {
   componentDidMount() {
