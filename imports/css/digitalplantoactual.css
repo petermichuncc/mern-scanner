@@ -1,0 +1,90 @@
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+
+}
+
+
+
+
+.biggerfont
+{
+font-family: 'Roboto';font-size: 120%;font-weight: bolder;
+
+}
+
+label
+{
+  color:black;
+}
+
+
+.mainDataentry{
+  position:absolute;
+  width:90vw;
+  height:60vh;
+
+}
+.mainDataentry > div{
+  float:right;
+  margin:10px;
+}
+
+
+
+.container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+
+}
+.container > div {
+  width: 25vw;
+  height:60vh;
+
+}
+
+
+.containerDataEntry > div {
+  width: 20vw;
+  height:60vh;
+
+}
+/*.ui-keyboard div { height: 150%; width: 150% }*/
+.ui-keyboard span { font-size: 1.1em; }
+.ui-keyboard-button { height: 1.75em; width: 3.5em; margin: .1em; cursor: pointer; }
+
+
+
+.wrapper {
+  margin:0 auto;
+    display: flex;
+    width:95%;
+
+
+}
+.wrapper div {
+    flex-basis: 100%;
+}
+
+
+label {
+  font-size: 120%;
+/*font-weight: bold;*/
+
+}
+
+.containerHeader {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+
+}
+.containerHeader > div {
+  width: 100px;
+  height:10vh;
+
+}
