@@ -3,7 +3,19 @@ import React, { Component } from 'react';
 
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
-import Button from '@material-ui/core/Button';
+//import Button from '@material-ui/core/Button';
+
+
+import GridContainer from "../../../../../imports/components/Grid/GridContainer.jsx";
+import GridItem from "../../../../../imports/components/Grid/GridItem.jsx";
+import Button from "../../../../../imports/components/CustomButtons/Button.jsx";
+import Card from "../../../../../imports/components/Card/Card.jsx";
+import CardBody from "../../../../../imports/components/Card/CardBody.jsx";
+import CardHeader from "../../../../../imports/components/Card/CardHeader.jsx";
+import CustomInput from "../../../../../imports/components/CustomInput/CustomInput.jsx";
+
+import loginPageStyle from "../../../../../imports/assets/jss/material-kit-pro-react/views/loginPageStyle.jsx";
+
 
 
  /* <style>

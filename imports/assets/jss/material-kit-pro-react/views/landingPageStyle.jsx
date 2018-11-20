@@ -3,7 +3,7 @@ import {
   title,
   main,
   mainRaised
-} from "/imports/assets/jss/material-kit-pro-react.jsx";
+} from "../../../../../imports/assets/jss/material-kit-pro-react.jsx";
 
 const landingPageStyle = {
   container: {
