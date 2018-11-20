@@ -1,4 +1,4 @@
-import { title } from "/imports/assets/jss/material-kit-pro-react.jsx";
+import { title } from "../../../../../imports/assets/jss/material-kit-pro-react.jsx";
 
 const mediaStyle = {
   media: {

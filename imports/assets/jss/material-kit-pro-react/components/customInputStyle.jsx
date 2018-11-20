@@ -7,7 +7,7 @@ import {
   dangerColor,
   successColor,
   defaultFont
-} from "/imports/assets/jss/material-kit-pro-react.jsx";
+} from "../../../../../imports/assets/jss/material-kit-pro-react.jsx";
 
 const customInputStyle = {
   disabled: {

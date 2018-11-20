@@ -10,7 +10,7 @@ import {
   successColor,
   infoColor,
   roseColor
-} from "/imports/assets/jss/material-kit-pro-react.jsx";
+} from "../../../../../imports/assets/jss/material-kit-pro-react.jsx";
 
 const accordionStyle = theme => ({
   root: {

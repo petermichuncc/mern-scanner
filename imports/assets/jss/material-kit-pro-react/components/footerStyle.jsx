@@ -6,7 +6,7 @@ import {
   container,
   primaryColor,
   btnLink
-} from "/imports/assets/jss/material-kit-pro-react.jsx";
+} from "../../../../../imports/assets/jss/material-kit-pro-react.jsx";
 
 const footerStyle = {
   left: {

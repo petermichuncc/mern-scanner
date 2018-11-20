@@ -10,7 +10,7 @@ import {
   warningColor,
   dangerColor,
   roseColor
-} from "/imports/assets/jss/material-kit-pro-react.jsx";
+} from "../../../../../imports/assets/jss/material-kit-pro-react.jsx";
 
 const typographyStyle = {
   defaultFontStyle: {
