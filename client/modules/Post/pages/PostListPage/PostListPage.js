@@ -13,6 +13,7 @@ import { toggleAddPost } from '../../../App/AppActions';
 // Import Selectors
 import { getShowAddPost } from '../../../App/AppReducer';
 import { getPosts } from '../../PostReducer';
+import Header from '../../../App/components/Header/Header';
 
 class PostListPage extends Component {
   componentDidMount() {
@@ -33,6 +34,11 @@ class PostListPage extends Component {
   render() {
     return (
       <div>
+        <Header
+            switchLanguage={lang => this.props.dispatch(switchLanguage(lang))}
+            intl={this.props.intl}
+            toggleAddPost={this.toggleAddPostSection}
+          />
         <PostCreateWidget addPost={this.handleAddPost} showAddPost={this.props.showAddPost} />
         <PostList handleDeletePost={this.handleDeletePost} posts={this.props.posts} />
       </div>
@@ -46,6 +52,7 @@ PostListPage.need = [() => { return fetchPosts(); }];
 // Retrieve data from store as props
 function mapStateToProps(state) {
   return {
+      intl: state.intl,
     showAddPost: getShowAddPost(state),
     posts: getPosts(state),
   };
