@@ -14,6 +14,7 @@ import { toggleAddPost } from '../../../App/AppActions';
 import { getShowAddPost } from '../../../App/AppReducer';
 import { getPosts } from '../../PostReducer';
 import Header from '../../../App/components/Header/Header';
+import Footer from '../../../App/components/Footer/Footer';
 import { switchLanguage } from '../../../Intl/IntlActions';
 
 
@@ -46,6 +47,7 @@ class PostListPage extends Component {
           />
         <PostCreateWidget addPost={this.handleAddPost} showAddPost={this.props.showAddPost} />
         <PostList handleDeletePost={this.handleDeletePost} posts={this.props.posts} />
+        <Footer />
       </div>
     );
   }
