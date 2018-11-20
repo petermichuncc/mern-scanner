@@ -44,7 +44,7 @@ font-weight: bold;
   </style>*/
 
 // App component - represents the whole app
-
+import logo from './logo.jpg';
 export default class Husky extends Component {
 
   componentWillMount() {
@@ -77,11 +77,11 @@ console.log("component will mount in graph menu")
 
 <div style={centerDiv}>
 
-Test test
 
-{/*
+
+
   <div className="center" id="repairlog_container">
-     <img src="logo.jpg " className="z-depth-3"/><br/><br/>
+     <img src={logo} className="z-depth-3"/><br/><br/>
 
      <div id="centered_box_blue"  className="z-depth-5" style={{width:"40vw",height:"40vh"}}>
 
@@ -94,7 +94,7 @@ Test test
 
      </div>
 
- </div> */}
+ </div>
      </div>
 
      </MuiThemeProvider>
