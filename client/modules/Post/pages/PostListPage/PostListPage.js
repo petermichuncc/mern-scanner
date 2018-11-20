@@ -33,7 +33,9 @@ class PostListPage extends Component {
     this.props.dispatch(toggleAddPost());
     this.props.dispatch(addPostRequest({ name, title, content }));
   };
-
+  toggleAddPostSection = () => {
+    this.props.dispatch(toggleAddPost());
+  };
   render() {
     return (
       <div>
