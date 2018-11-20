@@ -4,8 +4,7 @@ import React, { Component } from 'react';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
 import Button from '@material-ui/core/Button';
-import "../../css/mdb.css"
-import "../../css/barcode.css"
+
 
  /* <style>
 .logincontainernew
@@ -78,9 +77,9 @@ console.log("component will mount in graph menu")
 
 <div style={centerDiv}>
 
+Test test
 
-
-
+{/*
   <div className="center" id="repairlog_container">
      <img src="logo.jpg " className="z-depth-3"/><br/><br/>
 
@@ -88,14 +87,14 @@ console.log("component will mount in graph menu")
 
   <span style={{fontWeight: "bold"}}>  Department: Husky  </span>
     <br/>
-    <span class="thick">   Test text </span>
+    <span className="thick">   Test text </span>
 
 
 
 
      </div>
 
- </div>
+ </div> */}
      </div>
 
      </MuiThemeProvider>
